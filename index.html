@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Principal</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="styles/page_prin.css">
+    </head>
+<body>
+  <div class="container-fluid p-5 pb-5 my-5 border bg-black text-white">
+    <h1>BIENVENIDO</h1>
+  </div>
+  <footer>
+  <div class="boton p-4 pb-2 pt-2 border">
+    <a href="page.html" class="btn btn-dark">Registro Usuario</a>
+<button type="button" class="btn bg-black text-white" data-bs-toggle="modal" data-bs-target="#myModal">
+  Iniciar Sesión
+</button>
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">Inicio Sesión</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="email" placeholder="Correo" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Contraseña" name="pswd">
+          </div>
+          <button type="submit" class="btn btn-primary">Continuar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col">
+  <div class="card container">
+    <div class="card-body">
+      <img class="card-img-top" src="avatar.jpg" alt="Card image">
+      <h4 class="card-title text-white">Jonathan Vega</h4>
+      <p class="card-text text-white">Estudiiante de Desarrollo Web Y Aplicaciones Moviles</p>
+    </div>
+    
+  </div>
+  
+</div>
+<div class="col"></div>
+</div>
+</footer>
+   <script src="js/bootstrap.min.js">
+   </script>
+   </body>
+</html>

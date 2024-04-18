@@ -1,0 +1,38 @@
+body{
+    background-color: #145A32;
+    background-attachment: fixed;
+    align-content: center;
+}
+.begin{
+    color: white;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-fluid{
+    text-align: center;
+    padding: 10px;
+    border-style: double;
+}
+.boton{
+    background-color: white;
+    text-align: center;
+}
+.card{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    
+}
+.card-body{
+    width: 150px;
+}
